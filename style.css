@@ -1,0 +1,126 @@
+/* Colors ans fonts*/
+
+body {
+    background-color: white;
+    color: #81B214;
+    font-family: 'lora', serif;
+    font-size: 16px;
+}
+h1, h2,,h3,,h4{
+   font-family: 'Solway', serif;
+}
+h1{
+   color: #739237;
+   font-weight: 100px;
+   letter-spacing: 10px;
+   font-size: 32px;
+   text-transform: uppercase;
+}
+
+h2{
+	color: #739237;
+	font-weight: 100px;
+	letter-spacing: 10px
+	font-size: 24px;
+	text-transform:uppercase;
+}
+
+h3{
+	color: #739237;
+	font-weight: 100px;
+	letter-spacing: 10px;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+h4{
+	color: #739237
+	font-weight: 100px;
+	letter-spacing: 10px;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: #fcc169;
+}
+a:hover {
+	color: red;
+}
+
+/*Custom design with wlass */
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960){
+	.contenair{
+		width: 700px;
+	}
+}
+
+@media(max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: #fcc169;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: red;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left:0px;
+}
+.list-inline li {
+	display: inline;
+	padding-left: 0px;
+}
+.list-inline i{
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
